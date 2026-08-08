@@ -17,7 +17,7 @@ Este proyecto recopila los pasos realizados para implementar la instalación de 
 
 - [Instalación Ollama](/02-instalacion/Ollama.md)
 
-- [Instalación de DeepSeek](02-instalacion/)
+- [Instalación de DeepSeek](/02-instalacion/DeepSeek-R1-7B.md)
 
 
 ### 03 - Pruebas y propuestas de mejoras.

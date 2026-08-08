@@ -44,7 +44,7 @@ Ejecutamos:
 ollama --version
 ```
 
-Nos devuelve la version Ollama instalada, en este caso ``ollama version in 0.32.6``.
+Nos devuelve la version Ollama instalada, en este caso ``ollama version is 0.32.6``.
 
 Ahora comprobamos que no tiene modelos cargados con:
 ```bash

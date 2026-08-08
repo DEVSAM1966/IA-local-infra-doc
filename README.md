@@ -13,7 +13,7 @@ Este proyecto recopila los pasos realizados para implementar la instalación de 
 
 ### 02 - Instalación y ajustes.
 
-- [Ajustes en la Virtual Machine](01-situacion/mejoras-iniciales)
+- [Ajustes en la Virtual Machine](01-situacion/mejoras-iniciales.md)
 
 - [Instalación Ollama](02-instalacion/)
 

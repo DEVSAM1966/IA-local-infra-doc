@@ -14,7 +14,7 @@ Con la **VM apagada** se accede al administrador de VM (en mi caso es virt-manag
 
     Según la versión de virt-manager se debe pulsar al icono que es como una **bombilla** para acceder a las propiedades de la VM.
 
-![Aumento RAM de la VM](assets/1-aumento-memoria-VM.jpg)
+![Aumento RAM de la VM](/assets/1-aumento-memoria-VM.jpg)
 
 
 Con esto ya tenemos asignados 8 GB en la VM.
@@ -49,7 +49,7 @@ Por el método gráfico **(virt-manager)** aplicamos los siguientes pasos:
     **✔ Enable shared memory**
 6. Pulsa Apply.
 
-![Activar memoria compartida en la VM](assets/2-activar-memoria-compartida.jpg)
+![Activar memoria compartida en la VM](/assets/2-activar-memoria-compartida.jpg)
 
 
 ---
@@ -128,7 +128,7 @@ Luego activa:
 
 5. Pulsa Apply.
 
-![Ajuste de la CPU de la VM](assets/3-ajuste-CPU-VM.jpg)
+![Ajuste de la CPU de la VM](/assets/3-ajuste-CPU-VM.jpg)
 
 
 --- 
@@ -201,7 +201,7 @@ Si aparece:
 
 6. Pulsa Apply.
 
-![Mejoras del disco de la VM](assets/4-mejoras-disco-VM.jpg)
+![Mejoras del disco de la VM](/assets/4-mejoras-disco-VM.jpg)
 
 
 ---

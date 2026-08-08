@@ -15,7 +15,7 @@ Este proyecto recopila los pasos realizados para implementar la instalación de 
 
 - [Ajustes en la Virtual Machine](01-situacion/mejoras-iniciales.md)
 
-- [Instalación Ollama](02-instalacion/)
+- [Instalación Ollama](/02-instalacion/Ollama.md)
 
 - [Instalación de DeepSeek](02-instalacion/)
 

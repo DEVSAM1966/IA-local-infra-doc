@@ -67,7 +67,7 @@ Configura la IA local con:
 Y ya puedes usar la IA local desde el equipo local.
 
 
-## IV - Optiomización final
+## IV - Optimización final
 
 Para que Ollama use roda la RAM disponible. editaremos:
 ```bash
@@ -81,11 +81,14 @@ Environment="OLLAMA_NUM_THREADS=2"
 Environment="OLLAMA_MAX_LOADED_MODELS=1"
 ```
 
+- ``Environment="OLLAMA_HOST=0.0.0.0"`` Esto hace visible el ollama y su modelo de inteligencia artificial a traves de HTTP en el equipo local.
+- ``Environment="OLLAMA_NUM_THREADS=2" y ``Environment="OLLAMA_MAX_LOADED_MODELS=1"`` evita que cargue varios modelos a la vez y saturar la RAM.
+
 Luego recargar:
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl restart ollama
 ```
 
-Esto evita que cargue varios modelos a la vez y saturar la RAM.
+
 

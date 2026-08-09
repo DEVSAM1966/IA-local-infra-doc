@@ -22,32 +22,18 @@ Este proyecto recopila los pasos realizados para implementar la instalación de 
 
 ### 03 - Pruebas y propuestas de mejoras.
 
-- [Pruebas de funcionalidad](03-pruebas-propuestas/)
+- [Pruebas de funcionalidad](/03-pruebas-propuestas/pruebas-funcionalidad.md)
 
 ---
 
 ## Conclusión
 
-Con esta implantación de IA local, se demuestra que podemos trabajar de manera profesional con equipos modestos en hardware, donde no es necesario tener tarjetas gráficas dedicadas, la CPU más potente o una cantidad monstruosa de RAM. 
+Con esta implantación de IA local (exigente para el equipo), se demuestra que podemos trabajar directamente dese Ollama en la VM de manera profesional con equipos modestos en hardware, donde no es necesario tener tarjetas gráficas dedicadas, la CPU más potente o una cantidad monstruosa de RAM. Su rendimiento fue medio aceptable.
 
 Juega un papel importante el sistema operativo **Lubuntu** que fue capaz de gestionar el  hardware disponible y permitio una configuración fina de lo que tenemos.
 
-Así que en una futura compra de un equipo es más importante pensar:
+Donde se encontro con problemas de rendimiento es al integra OpenCode con la IA local debido a la arquitectura empleada de tener aislada la IA en una VM.  Aqui nos falto una CPU con más nucleos para tener un rendimiento decente.
 
-- CPU de gran rendimiento, con suficientes cores para tener varias maquinas virtualizadas y levantadas a la vez, pero de estabilidad y durabilidad demostrada.  
-
-- Elegir la mejor CPU de hace uno o dos años atras, ya que podremos determinar por las criticas de otros usuarios su durabilidad y confiabilidad.
-
-- La cantidad de RAM, la máxima que podamos y de lectura / escritura ultra rápidas.  Siempre que sea ampliable y de doble canal.  
-
-- Atención con las RAM unificadas, aunque sea más rapidas no se puede ampliar al estar soldadas a la placa.
-
-- Discos SSD los más rápido posibles y a ser posible dos.
-
-Como se puede observar debemos de invertir en RAM y SSD para compensar un CPU menos actuales pero más durarera.
-
-
-A nivel de IA local se desmuestra que con IAs modestas podemos realizar trabajos de apoyo en la programación, diseño de bases de datos y arquitectura / configuración de sistemas.
 
 ---
 

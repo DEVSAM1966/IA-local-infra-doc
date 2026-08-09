@@ -28,9 +28,9 @@ Este proyecto recopila los pasos realizados para implementar la instalación de 
 
 ## Conclusión
 
-Con esta implantación de IA local (exigente para el equipo), se demuestra que podemos trabajar directamente dese Ollama en la VM de manera profesional con equipos modestos en hardware, donde no es necesario tener tarjetas gráficas dedicadas, la CPU más potente o una cantidad monstruosa de RAM. Su rendimiento fue medio aceptable.
+Con esta implantación de IA local (exigente para el equipo), se demuestra que podemos trabajar directamente desde Ollama en la VM de manera profesional con equipos modestos en hardware, donde no es necesario tener tarjetas gráficas dedicadas, la CPU más potente o una cantidad monstruosa de RAM. Su rendimiento fue medio aceptable.
 
-Juega un papel importante el sistema operativo **Lubuntu** que fue capaz de gestionar el  hardware disponible y permitio una configuración fina de lo que tenemos.
+Juega un papel importante los sistemas operativos **Lubuntu / Ubuntu** que fue capaz de gestionar el  hardware disponible y permitio una configuración fina de lo que tenemos.
 
 Donde se encontro con problemas de rendimiento es al integra OpenCode con la IA local debido a la arquitectura empleada de tener aislada la IA en una VM.  Aqui nos falto una CPU con más nucleos para tener un rendimiento decente.
 
